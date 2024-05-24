@@ -1,7 +1,7 @@
 const { By, Key, Builder, WebElementCondition, until } = require("selenium-webdriver");
 const assert = require("assert");
 
-(async function test_function() {
+(async function test_google() {
     let driver = await new Builder().forBrowser("chrome").build();
 
     try {
